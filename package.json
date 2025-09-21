@@ -1,0 +1,26 @@
+{
+  "name": "piconv",
+  "version": "1.0.0",
+  "description": "A pdf and image processing library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.5.2",
+    "mocha": "^11.7.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
